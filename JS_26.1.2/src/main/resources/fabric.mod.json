@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "justscript",
+	"version": "${version}",
+	"name": "JustScript",
+	"description": "Скриптовый редактор для JustMC Creative+: меню по клавише J, код на блоках и сущностях, события, сборка в JSON-модуль и загрузка через /module load-url.",
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.justscript.JustScriptClient"
+		]
+	},
+	"mixins": [
+		"justscript.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=26.1 <26.4",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
