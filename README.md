@@ -1,5 +1,5 @@
 # JustScript
-JustScript 0.5.3 — скриптовый редактор для JustMC Creative+
+JustScript 0.6.0 — скриптовый редактор для JustMC Creative+
 
 Клиентский Fabric-мод для Minecraft 1.21.11.
 
