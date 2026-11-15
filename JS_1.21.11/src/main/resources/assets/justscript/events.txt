@@ -1,0 +1,137 @@
+block.click.right|player_interact|BLOCK|ПКМ по блоку|Игрок кликнул по блоку правой кнопкой|true
+block.click.left|player_interact|BLOCK|ЛКМ по блоку|Игрок кликнул по блоку левой кнопкой|true
+block.click.any|player_interact|BLOCK|Любой клик по блоку|ЛКМ или ПКМ по блоку|true
+block.click.shift_right|player_interact|BLOCK|Shift+ПКМ по блоку|ПКМ по блоку с зажатым Shift|true
+block.click.item|player_interact|BLOCK|Клик предметом по блоку|По блоку кликнули предметом|true
+block.step|player_interact|BLOCK|Наступили на блок|Игрок прошёлся по блоку (плита, растяжка, нажимная)|true
+block.break|player_break_block|BLOCK|Блок сломан|Игрок сломал блок|true
+block.break.start|block_damage|BLOCK|Начали ломать блок|Игрок начал ломать блок|true
+block.break.abort|block_damage_abort|BLOCK|Перестали ломать блок|Игрок отпустил блок|false
+block.place|player_place_block|BLOCK|Блок поставлен|Игрок поставил блок|true
+block.broken_by_block|block_break_block|BLOCK|Блок сломан блоком|Поршень или жидкость сломали блок|false
+block.explode|block_explode|BLOCK|Блок взорван|Блок разрушен взрывом|true
+block.burn|block_burn|BLOCK|Блок сгорел|Блок догорел в огне|true
+block.fade|block_fade|BLOCK|Блок исчез|Лёд, снег или огонь исчезли|true
+block.grow|block_grow|BLOCK|Блок вырос|Семена, тыква, бамбук выросли|true
+block.spread|block_spread|BLOCK|Блок распространился|Грибы, огонь, дорожки|true
+block.form|block_form|BLOCK|Блок образовался|Камень, бетон, снег образовались|true
+block.fertilize|block_fertilize|BLOCK|Блок удобрили|Применили костную муку|true
+block.ignite|block_ignite|BLOCK|Блок подожгли|Блок загорелся|true
+block.flow|block_flow|BLOCK|Блок сдвинут жидкостью|Вода или лава перенесли блок|true
+block.fall|block_fall|BLOCK|Блок начал падать|Песок или гравий начали падать|true
+block.piston.push|block_piston_extend|BLOCK|Поршень толкнул блок|Поршень выдвинулся|true
+block.piston.pull|block_piston_retract|BLOCK|Поршень притянул блок|Поршень задвинулся|true
+block.leaves_decay|leaves_decay|BLOCK|Листва опала|Листва сгнила|true
+block.moisture|moisture_change|BLOCK|Влажность грядки|Грядка намокла или высохла|true
+block.fluid_level|fluid_level_change|BLOCK|Уровень воды изменился|Уровень жидкости в блоке|true
+block.dispense|dispenser_dispense_item|BLOCK|Раздатчик выбросил предмет|Раздатчик выстрелил предметом|true
+block.furnace.smelt|furnace_smelt|BLOCK|Печка закончила плавку|Плавка завершена|true
+block.furnace.fuel|furnace_burn|BLOCK|Печка сожгла топливо|Сгорело топливо|true
+block.note|note_play|BLOCK|Нота сыграла|Нотный блок сыграл|true
+block.bell|bell_ring|BLOCK|Колокол зазвенел|Звон колокола|true
+block.beacon.on|beacon_activate|BLOCK|Маяк включился|Маяк активирован|false
+block.beacon.off|beacon_deactivate|BLOCK|Маяк выключился|Маяк деактивирован|false
+block.redstone|redstone_level_change|BLOCK|Редстоун-сигнал|Блок активирован редстоуном|false
+block.tnt|tnt_prime|BLOCK|ТНТ подожгли|Блок ТНТ активирован|true
+block.portal|portal_create|BLOCK|Портал создан|Появился портал|true
+block.sponge|sponge_absorb|BLOCK|Губка впитала воду|Губка собрала воду|true
+block.hopper|hopper_pickup_item|BLOCK|Воронка взяла предмет|Воронка подобрала предмет|true
+entity.click.right|player_right_click_entity|ENTITY|ПКМ по сущности|Игрок кликнул по сущности правой кнопкой|true
+entity.click.left|player_pre_attack_entity|ENTITY|ЛКМ по сущности|Игрок ударил сущность|true
+entity.damage|entity_take_damage|ENTITY|Сущность получила урон|Любой урон по сущности|true
+entity.death|entity_death|ENTITY|Сущность умерла|Смерть сущности|true
+entity.kill|entity_kill_entity|ENTITY|Сущность убила сущность|Моб убил другого моба|true
+entity.spawn|entity_spawn|ENTITY|Сущность появилась|Спавн новой сущности|true
+entity.remove|entity_removed_from_world|ENTITY|Сущность исчезла|Сущность убрали из мира|false
+entity.teleport|entity_teleport|ENTITY|Сущность телепортировалась|Телепорт сущности|true
+entity.heal|entity_heal|ENTITY|Сущность вылечилась|Сущность восстановила здоровье|true
+entity.combust|entity_combust|ENTITY|Сущность загорелась|Сущность загорелась|true
+entity.explode|entity_explode|ENTITY|Сущность взорвалась|Сущность взорвалась|true
+entity.shoot|entity_shot_bow|ENTITY|Сущность выстрелила|Выстрел из лука или арбалета|true
+entity.interact|entity_interact|ENTITY|Сущность взаимодействует|Сущность взаимодействует с миром|true
+entity.pickup|entity_pickup_item|ENTITY|Сущность подобрала предмет|Подбор предмета|true
+entity.drop|entity_drop_item|ENTITY|Сущность выбросила предмет|Выброс предмета|true
+entity.knockback|entity_knockback|ENTITY|Сущность отбросило|Отбрасывание|true
+entity.resurrect|entity_resurrect|ENTITY|Сущность воскресла тотемом|Сработал тотем|true
+entity.transform|entity_transform|ENTITY|Сущность превратилась|Замена на другую сущность|true
+entity.unleash|entity_unleash_event|ENTITY|Сущность отвязали|Поводок снят|true
+entity.glide.start|entity_start_gliding|ENTITY|Сущность начала полёт на элитрах|Планирование|true
+entity.glide.stop|entity_stop_gliding|ENTITY|Сущность закончила полёт|Конец планирования|true
+entity.bell|entity_bell_ring|ENTITY|Сущность позвонила в колокол|Сущность ударила в колокол|true
+entity.hurt_player|entity_damage_player|ENTITY|Сущность ударила игрока|Моб нанёс урон игроку|true
+entity.hurt_entity|entity_damage_entity|ENTITY|Моб ударил моба|Моб нанёс урон мобу|true
+entity.projectile_hit|projectile_hit|ENTITY|Снаряд попал в блок|Попадание снаряда|true
+entity.projectile_damage|projectile_damage_entity|ENTITY|Снаряд нанёс урон|Урон снарядом|true
+entity.vehicle_damage|vehicle_take_damage|ENTITY|Транспорт получил урон|Урон лодке, лошади и т.п.|true
+entity.sheep_wool|sheep_regrow_wool|ENTITY|Овца отросла шерсть|Шерсть овцы восстановилась|true
+player.join|player_join|PLAYER|Игрок зашёл в мир|Вход в мир|false
+player.quit|player_quit|PLAYER|Игрок вышел из мира|Выход из мира|false
+player.respawn|player_respawn|PLAYER|Игрок возродился|Респавн|false
+player.death|player_death|PLAYER|Игрок умер|Смерть игрока|true
+player.kill_mob|player_kill_mob|PLAYER|Игрок убил моба|Убийство моба|true
+player.kill_player|player_kill_player|PLAYER|Игрок убил игрока|PvP-убийство|true
+player.chat|player_chat|PLAYER|Сообщение в чат|Игрок написал в чат|true
+player.move|player_move|PLAYER|Игрок перешёл на другой блок|Смена блока под ногами|true
+player.location|player_location_change|PLAYER|Игрок сдвинулся|Любое изменение позиции|true
+player.rotate|player_rotate|PLAYER|Игрок повернулся|Изменение yaw/pitch|true
+player.jump|player_jump|PLAYER|Игрок прыгнул|Прыжок|true
+player.sneak|player_sneak|PLAYER|Игрок присел|Начало приседания|true
+player.unsneak|player_unsneak|PLAYER|Игрок встал|Конец приседания|true
+player.sprint|player_start_sprint|PLAYER|Игрок побежал|Начало бега|true
+player.sprint.stop|player_stop_sprint|PLAYER|Игрок перестал бежать|Конец бега|true
+player.flight.start|player_start_flight|PLAYER|Игрок начал летать|Полёт в креативе|true
+player.flight.stop|player_stop_flight|PLAYER|Игрок перестал летать|Конец полёта|true
+player.glide.start|player_start_gliding|PLAYER|Игрок начал планировать|Элитры|true
+player.glide.stop|player_stop_gliding|PLAYER|Игрок перестал планировать|Конец элитр|true
+player.interact|player_interact|PLAYER|Игрок кликнул по миру|ЛКМ/ПКМ, плиты, растяжки|true
+player.right_click|player_right_click|PLAYER|ПКМ игрока|Правый клик|true
+player.left_click|player_left_click|PLAYER|ЛКМ игрока|Левый клик|true
+player.break_block|player_break_block|PLAYER|Игрок сломал блок|Блок сломан|true
+player.place_block|player_place_block|PLAYER|Игрок поставил блок|Блок поставлен|true
+player.pick_block|player_pick_block|PLAYER|Игрок взял блок пипеткой|Средний клик по блоку|true
+player.harvest|player_harvest_block|PLAYER|Игрок собрал урожай|Сбор без разрушения блока|true
+player.damage|player_take_damage|PLAYER|Игрок получил урон|Любой урон|true
+player.heal|player_heal|PLAYER|Игрок восстановил здоровье|Лечение|true
+player.food|player_food_level_change|PLAYER|Сытость изменилась|Уровень голода|true
+player.exp|player_pickup_experience|PLAYER|Игрок подобрал опыт|Сферы опыта|true
+player.pickup|player_pickup_item|PLAYER|Игрок подобрал предмет|Подбор предмета|true
+player.drop|player_drop_item|PLAYER|Игрок выбросил предмет|Выброс предмета|true
+player.consume|player_consume_item|PLAYER|Игрок съел или выпил|Еда и зелья|true
+player.craft|player_craft_item|PLAYER|Игрок скрафтил предмет|Крафт|true
+player.enchant|player_enchant_item|PLAYER|Игрок зачаровал предмет|Стол зачарований|true
+player.shoot|player_shot_bow|PLAYER|Игрок выстрелил из лука|Лук или арбалет|true
+player.projectile_hit|player_projectile_hit|PLAYER|Снаряд игрока попал|Попадание снаряда|true
+player.launch|player_launch_projectile|PLAYER|Игрок запустил снаряд|Яйца, снежки, зелья|true
+player.slot|player_change_slot|PLAYER|Игрок сменил слот|Смена слота хотбара|true
+player.hand_swap|player_swap_hands|PLAYER|Игрок поменял руки|Смена основной/второй руки|true
+player.inventory|player_click_inventory|PLAYER|Клик в инвентаре|Работа с инвентарём|true
+player.open_inventory|player_open_inventory|PLAYER|Игрок открыл инвентарь|Открытие меню|true
+player.teleport|player_teleport|PLAYER|Игрок телепортировался|Телепорт|true
+player.tame|player_tame_entity|PLAYER|Игрок приручил сущность|Приручение|true
+player.leash|player_leash_entity|PLAYER|Игрок привязал сущность|Поводок|true
+player.sleep|time_skip|PLAYER|Игрок проспал ночь|Сон и пропуск времени|true
+player.sign|player_sign_change|PLAYER|Игрок изменил табличку|Правка таблички|true
+player.edit_book|player_edit_book|PLAYER|Игрок написал книгу|Книга и перо|true
+player.anvil|player_anvil_rename_input|PLAYER|Игрок переименовал предмет|Наковальня|false
+player.arm_swing|player_arm_swing|PLAYER|Игрок махнул рукой|Взмах рукой|true
+player.riptide|player_riptide|PLAYER|Игрок применил тягун|Трезубец с тягуном|true
+player.horse_jump|player_horse_jump|PLAYER|Прыжок на лошади|Прыжок верхом|true
+player.vehicle_jump|player_vehicle_jump|PLAYER|Прыжок на транспорте|Кнопка прыжка в транспорте|false
+player.input|player_input_event|PLAYER|Изменились клавиши движения|Нажатия WASD/Shift/Space/Ctrl|false
+player.dismount|player_dismount|PLAYER|Игрок слез с транспорта|Сошёл с лодки/лошади|true
+world.start|world_start|WORLD|Мир запущен|Старт игрового режима|false
+world.stop|world_stop|WORLD|Мир остановлен|Конец игрового режима|false
+world.unfreeze|world_reload|WORLD|Мир размёрзся после ошибки|Восстановление после критической ошибки|false
+world.chunk_load|chunk_load|WORLD|Чанк загружен|Загрузка чанка|false
+world.chunk_unload|chunk_unload|WORLD|Чанк выгружен|Выгрузка чанка|false
+world.time_skip|time_skip|WORLD|Время пропущено|Сон или установка времени|true
+world.portal|portal_create|WORLD|Портал создан|Появился портал|true
+world.entity_spawn|entity_spawn|WORLD|Сущность появилась|Спавн сущности|true
+world.entity_death|entity_death|WORLD|Сущность умерла|Смерть сущности|true
+world.structure_grow|structure_grow|WORLD|Дерево выросло|Рост дерева или гриба|true
+world.sculk|sculk_bloom|WORLD|Скалк расцвёл|Скалк-катализатор|true
+world.vault|vault_change_state|WORLD|Хранилище сменило состояние|Vault-блок|true
+world.web_response|world_web_response|WORLD|Ответ на web-запрос|Веб-запрос выполнен|false
+world.web_error|world_web_exception|WORLD|Ошибка web-запроса|Веб-запрос не удался|false
+world.bell|bell_ring|WORLD|Колокол зазвенел|Звон колокола|true
+world.tnt|tnt_prime|WORLD|ТНТ активировано|ТНТ подожгли|true
